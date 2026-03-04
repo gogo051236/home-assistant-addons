@@ -32,4 +32,4 @@ if bashio::config.exists 'log_level'; then
 fi
 
 
-exec ledfx --host 127.0.0.1 --offline "${options[@]}"
+exec ledfx --host 127.0.0.1 -p 8885 --offline "${options[@]}"
