@@ -14,7 +14,7 @@ bashio::log.red \
         '-----------------------------------------------------------'
 
         
-bashio::log.info "Starting ledfx..."
+bashio::log.info "Starting ledfx 1..."
 
 # Find the matching AirSonos log level
 if bashio::config.exists 'log_level'; then
